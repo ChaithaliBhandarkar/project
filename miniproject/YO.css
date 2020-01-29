@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image:  url(edit.jpg);
+    height :100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+   
+  li{ 
+    color:aliceblue
+}
+ul{
+    list-style-type: none;
+float: right;
+margin-bottom: 10px;
+margin-top:30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding:5px 20px;
+    border:2px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:rgb(23, 97, 35)
+   
+}
+.main{
+    max-width: 1700px;
+    margin:auto;
+}
+h1{
+   position: fixed;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+ font-size: 70px;
+}
+.button {
+    position: fixed;
+    top:65%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 20px
+}
+.btn{
+    border: 0px solid rgb(228, 235, 228);
+    padding: 10px 20px;
+    color:#fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:rgb(18, 99, 22);
+    transition: 0.6s ease;
+}

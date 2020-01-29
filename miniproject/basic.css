@@ -1,0 +1,46 @@
+/* [SITE] */
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.topnav{
+  background-color:rgb(196, 101, 101)
+  overflow:hidden;
+}
+.topnav a{
+  columns: rgb(214, 172, 172);
+  text-align: right;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+/* [GALLERY] */
+#gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#gallery img {
+  box-sizing: border-box;
+  width: 25%;
+  max-height: 150px;
+  padding: 10px;
+  float: left;
+  /* fill, contain, cover, scale-down : use whichever you like */
+  /* object-fit: cover; */
+}
+
+/* [RESPONSIVE GALLERY] */
+@media screen and (max-width: 850px) {
+  #gallery img {
+    width: 33%;
+    height:auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #gallery img {
+    width: 50%;
+    height:auto;
+    
+  }
